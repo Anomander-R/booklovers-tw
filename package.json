@@ -1,13 +1,12 @@
 {
   "name": "booklovers-tw",
   "version": "1.0.0",
-  "description": "Booklovers Website - Exercise in using Tailwind CSS utility classes 2/7",
+  "description": "Simple file structure for Tailwind projects",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./css/style.css",
-    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./css/style.css"
   },
-  "keywords": [],
   "author": "Anomander-R",
   "license": "MIT",
   "devDependencies": {
