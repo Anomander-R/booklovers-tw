@@ -1,0 +1,16 @@
+{
+  "name": "booklovers-tw",
+  "version": "1.0.0",
+  "description": "Booklovers Website - Exercise in using Tailwind CSS utility classes 2/7",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Anomander-R",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
