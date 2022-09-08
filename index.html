@@ -4,11 +4,169 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Booklovers Website</title>
   </head>
   <body>
-    <h1 class="text-4xl mb-4">Welcome</h1>
-    <p>Start building your Tailwind project</p>
+    <!-- Hero Section -->
+    <section id="hero">
+      <!-- Hero container-->
+
+      <div class="container max-w-6xl mx-auto px-6 py-12">
+        <!-- MENU/Logo Container -->
+        <nav
+          class="flex itams-center justify-between text-xl font-bold text-white"
+        >
+          <img src="/images/logo.svg" alt="" class="w-48" />
+
+          <!-- Menu Item 1 -->
+          <div class="hidden h-10 font-alata md:flex md:space-x-8">
+            <div class="group">
+              <a href="#">About</a>
+              <div
+                class="mx-2 h-2 group-hover:border-b-2 group-hover:border-blue-50"
+              ></div>
+            </div>
+          </div>
+          <!-- Menu Item 2 -->
+          <div class="hidden h-10 font-alata md:flex md:space-x-8">
+            <div class="group">
+              <a href="#">Careers</a>
+              <div
+                class="mx-2 h-2 group-hover:border-b-2 group-hover:border-blue-50"
+              ></div>
+            </div>
+          </div>
+          <!-- Menu Item 3 -->
+          <div class="hidden h-10 font-alata md:flex md:space-x-8">
+            <div class="group">
+              <a href="#">Events</a>
+              <div
+                class="mx-2 h-2 group-hover:border-b-2 group-hover:border-blue-50"
+              ></div>
+            </div>
+          </div>
+          <!-- Menu Item 4 -->
+          <div class="hidden h-10 font-alata md:flex md:space-x-8">
+            <div class="group">
+              <a href="#">Books</a>
+              <div
+                class="mx-2 h-2 group-hover:border-b-2 group-hover:border-blue-50"
+              ></div>
+            </div>
+          </div>
+          <!-- Menu Item 5 -->
+          <div class="hidden h-10 font-alata md:flex md:space-x-8">
+            <div class="group">
+              <a href="#">Support</a>
+              <div
+                class="mx-2 h-2 group-hover:border-b-2 group-hover:border-blue-50"
+              ></div>
+            </div>
+          </div>
+          <!-- @todo - Hamburger Button -->
+        </nav>
+        <!-- @todo - Mobile Menu -->
+
+        <div
+          class="max-w-lg mt-32 mb-32 p-4 font-sans text-4xl text-white uppercase border-2 border-white md:p-10 md:m-32 md:mx-0 md:text-6xl"
+        >
+          When in doubt go to the library
+        </div>
+      </div>
+
+      <!-- End of Hero Section -->
+    </section>
+
+    <!-- Feature Section -->
+    <section id="feature">
+      <!-- Feature Container -->
+      <div
+        class="relative container flex flex-col max-w-6xl mx-auto my-32 px-6 md:px-0 text-gray-900 md:flex-row"
+      >
+        <!-- Image -->
+        <img
+          src="images/img_ying_opt.jpg"
+          alt=""
+          class="border border-spacing-0 border-black"
+        />
+
+        <!-- Text Container -->
+        <div
+          class="top-64 pr-0 bg-white md:absolute md:right-0 md:py-20 md:pl-20"
+        >
+          <h2
+            class="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 uppercase md:text-5xl md:mt-0 md:text-left"
+          >
+            Books are a uniquely portable magic
+          </h2>
+          <p class="max-w-md text-gray-900 md:font-bold text-center md:text-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            fuga maiores aliquam tempora perspiciatis tenetur consectetur
+            commodi eos incidunt vitae aut blanditiis, doloribus odio quasi?
+            Dolorem quaerat nam dolor sequi.
+          </p>
+        </div>
+      </div>
+      <!-- End of Feature Container -->
+    </section>
+    <!-- End of Feature Section -->
+
+    <!-- Projects Section -->
+
+    <section id="projects">
+
+      <!-- Projects Container -->
+
+      <div class="container max-w-6xl mx-auto 
+                  my-48 px-6 text-gray-900 py-12
+                  md:px-0"> 
+      <!-- Project Header -->
+
+        <div class="flex justify-center mb-20 md:justify-between">
+          <h2 class="text-4xl text-center uppercase md:text-left md:text-5xl">
+            Our Projects
+          </h2>
+          <button class="hidden btn 
+                         md:block">See all</button>
+        </div>
+
+      </div> <!-- End of Project Header -->
+
+        <!-- Items Container  -->
+          <div class="flex flex-col justify-between w-full space-y-6 
+                      text-2xl uppercase md:flex-row md:space-y-0
+                      md:space-x-8>
+            <!-- Item 1 -->
+            <div class="relative group overflow-hidden">
+                <!-- Desktop image -->
+                <img 
+                  src="images/img_earth_moon256x400.jpg" 
+                  alt="" 
+                  class="hidden w-1/4 duration-200 md:block md:group-hover:scale-110"/>
+
+                <!-- Mobile image -->
+                <img 
+                  src="images/img_earth_moon256x400.jpg" 
+                  alt="" 
+                  class="w-full md:hidden"/>
+                  <!-- Items Text -->
+                  <h5 class="absolute px-6 duration-200 w-52 bottom-4 
+                             md:bottom-8 md:px-10 group-hover:scale-110
+                             group-hover:text-black">
+                  Earth & Moon
+                  </h5>
+            </div>
+          </div>
+        <!-- End of Items Container  -->
+      <!-- End of Projects Container -->
+    </section>
+    <!-- End of Project Section -->
   </body>
 </html>

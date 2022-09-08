@@ -1,0 +1,10 @@
+{
+  "error": "validationError",
+  "reason": "[{\"fields\": [\"first_name\", \"last_name\", \"university\", \"institution\", \"year_of_study\"], \"reason\": \"This field is required.\"}]",
+  "stack": [
+    {
+      "error": "validationError",
+      "reason": "[{\"fields\": [\"first_name\", \"last_name\", \"university\", \"institution\", \"year_of_study\"], \"reason\": \"This field is required.\"}]"
+    }
+  ]
+}
