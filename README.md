@@ -36,4 +36,4 @@ Photos by Marko Blažević, Molly Triplett, Ben Turnbull, Stephanie LeBlanc, Gar
   
 ## Deployment
 
-Link: https://mellifluous-tiramisu-35dc6d.netlify.app/
+Link: https://gleaming-puffpuff-3f935a.netlify.app/
